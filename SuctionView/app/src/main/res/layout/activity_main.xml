@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_act"
+    tools:context=".activity.MainActivity">
+
+    <com.demo.suctionview.widgets.DragViewLayout
+        android:id="@+id/draglayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_suction"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/icon_call" />
+
+        <TextView
+            android:id="@+id/tv_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rec_gray_10"
+            android:padding="10dp"
+            android:text="@string/call_location"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp" />
+    </com.demo.suctionview.widgets.DragViewLayout>
+
+</LinearLayout>

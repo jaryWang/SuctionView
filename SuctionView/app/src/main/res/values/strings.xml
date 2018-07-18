@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SuctionView</string>
+
+    <string name="call_location">来电归属地：武汉</string>
+    <string name="show_number">显示拨号界面</string>
+    <string name="show_location">显示IP地址</string>
+</resources>
